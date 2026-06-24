@@ -17,6 +17,9 @@ Point locations of Ottawa Public Library branches. Libraries were included as an
 
 All datasets were downloaded from the city of Ottawa Open Data Portal and processed in ArcGIS Pro for spatial analysis.
 
+## Final Map
+![Ottawa Housing Suitability Map](maps/Layout.jpg)
+
 ## Methodology:
 Buffer analysis and overlay analysis were used to identify areas with access to key urban services.
 
