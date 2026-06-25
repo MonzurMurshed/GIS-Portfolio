@@ -24,7 +24,7 @@ Buffer analysis and overlay analysis were used to identify areas with access to 
 
 The analysis was automated using ArcGIS Pro ModelBuilder. Separate buffer zones were created for secondary schools (750 m), O-Train stations (1000 m), and public libraries (2000 m). The buffered layers were combined through two Intersect operations to identify locations that satisfied all three accessibility criteria.
 
-![alt text](modelbuilder_workflow.png)
+![ModelBuilder Workflow](screenshots/modelbuilder_workflow.png)
 
 ## Final Map
 ![Ottawa Housing Suitability Map](maps/Layout.jpg)
