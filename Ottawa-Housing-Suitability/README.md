@@ -17,11 +17,17 @@ Point locations of Ottawa Public Library branches. Libraries were included as an
 
 All datasets were downloaded from the city of Ottawa Open Data Portal and processed in ArcGIS Pro for spatial analysis.
 
-## Final Map
-![Ottawa Housing Suitability Map](maps/Layout.jpg)
-
 ## Methodology:
 Buffer analysis and overlay analysis were used to identify areas with access to key urban services.
+
+## ModelBuilder Workflow
+
+The analysis was automated using ArcGIS Pro ModelBuilder. Separate buffer zones were created for secondary schools (750 m), O-Train stations (1000 m), and public libraries (2000 m). The buffered layers were combined through two Intersect operations to identify locations that satisfied all three accessibility criteria.
+
+![alt text](modelbuilder_workflow.png)
+
+## Final Map
+![Ottawa Housing Suitability Map](maps/Layout.jpg)
 
 ## Results
 Areas near schools, transit, and libraries were identified as the most suitalbe locations for housing development.
