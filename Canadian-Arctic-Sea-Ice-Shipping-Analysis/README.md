@@ -25,11 +25,11 @@ The study area covers the Canadian Arctic Archipelago and the Northwest Passage 
 
 ## Data Sources
 
-| Dataset | Source |
-|---------|--------|
-| Sea Ice Concentration CDR Version 6 | NOAA / NSIDC |
-| Arctic Sea Routes | National Geospatial-Intelligence Agency (NGA) |
-| Admin 0 Countries | Natural Earth |
+| Dataset                             | Source                                        |
+| ----------------------------------- | --------------------------------------------- |
+| Sea Ice Concentration CDR Version 6 | NOAA / NSIDC                                  |
+| Arctic Sea Routes                   | National Geospatial-Intelligence Agency (NGA) |
+| Admin 0 Countries                   | Natural Earth                                 |
 
 ---
 

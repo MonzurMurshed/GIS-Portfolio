@@ -1,1 +1,33 @@
+</> gitignore
+
+# Archives
 *.zip
+
+# ArcGIS Pro temporary files
+*.lock
+*.sr.lock
+*.tmp
+*.bak
+*.aux
+*.freelist
+*.gdb-lock
+
+# ArcGIS generated folders
+Index/
+ImportLog/
+GpMessages/
+info/
+
+#Python
+__pycache__/
+*.pyc
+
+#Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Log files
+*.log
