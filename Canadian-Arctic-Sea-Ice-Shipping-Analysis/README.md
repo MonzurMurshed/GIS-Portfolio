@@ -1,5 +1,34 @@
 # Canadian Arctic Sea Ice Concentration Change Along the Northwest Passage (2015–2025)
 
+![ArcGIS Pro](https://img.shields.io/badge/ArcGIS%20Pro-3.5-2C7AC3?logo=esri)
+![GIS](https://img.shields.io/badge/GIS-Spatial%20Analysis-success)
+![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-Raster%20Analysis-orange)
+![ModelBuilder](https://img.shields.io/badge/ArcGIS-ModelBuilder-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+[![Final Map](maps/Canadian_Arctic_Sea_Ice_Concentration_Change_2015_2025.png)](maps/Canadian_Arctic_Sea_Ice_Concentration_Change_2015_2025.pdf)
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Study Area](#study-area)
+- [Data Sources](#data-sources)
+- [Workflow](#workflow)
+- [Software](#software)
+- [Methodology](#methodology)
+- [Results](#results)
+- [Key Findings](#key-findings)
+- [Project Structure](#project-structure)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Future Improvements](#future-improvements)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
 ## Project Overview
 
 This project analyzes changes in September sea ice concentration along the Canadian Northwest Passage between 2015 and 2025. Using NOAA/NSIDC Climate Data Records (CDR), GIS techniques, and ArcGIS Pro, the analysis identifies where sea ice concentration increased or decreased within a 200 km analysis corridor centered on the Northwest Passage.
@@ -33,11 +62,24 @@ The study area covers the Canadian Arctic Archipelago and the Northwest Passage 
 
 ---
 
+## Workflow
+
+1. Download NOAA/NSIDC sea ice rasters
+2. Prepare Arctic shipping routes
+3. Calculate raster difference (2025 − 2015)
+4. Create 200 km analysis corridor
+5. Extract raster using corridor mask
+6. Design final map layout
+
+---
+
 ## Software
 
-- ArcGIS Pro
-- ModelBuilder
-- Spatial Analyst Extension
+| Software        | Purpose                                  |
+| --------------- | ---------------------------------------- |
+| ArcGIS Pro      | GIS analysis and cartographic production |
+| Spatial Analyst | Raster analysis and Extract by Mask      |
+| ModelBuilder    | Workflow automation                      |
 
 ---
 
@@ -93,38 +135,55 @@ The majority of significant changes occur within the central Canadian Arctic Arc
 
 ---
 
+## Key Findings
+
+- Sea ice concentration changes are spatially heterogeneous along the Northwest Passage.
+- The largest positive changes occur within portions of the central Canadian Arctic Archipelago.
+- Areas of decreasing sea ice concentration may indicate improved seasonal shipping accessibility.
+- The analysis demonstrates how GIS can support climate and Arctic transportation studies.
+
+---
+
 ## Project Structure
 
 ```
+
 Canadian-Arctic-Sea-Ice-Shipping-Analysis/
 │
-├── data/
-├── maps/
-│   ├── Canadian_Arctic_Sea_Ice_Concentration_Change_2015_2025.png
-│   └── Canadian_Arctic_Sea_Ice_Concentration_Change_2015_2025.pdf
-│
-├── modelbuilder/
-├── report/
-├── screenshots/
-├── scripts/
+├── data/            Source data documentation
+├── maps/            Final maps
+├── modelbuilder/    ArcGIS ModelBuilder workflow
+├── report/          Technical report
+├── screenshots/     Workflow screenshots
+├── scripts/         Python scripts
 └── README.md
+
 ```
 
 ---
 
 ## Skills Demonstrated
 
-- GIS Analysis
+### GIS & Remote Sensing
+
 - Raster Processing
 - Spatial Analysis
-- Raster Calculator
-- Extract by Mask
 - Buffer Analysis
-- Cartography
+- Extract by Mask
+- Raster Calculator
+
+### Cartography
+
+- Map Design
+- Data Visualization
+- Legend Design
+- Map Layout
+
+### GIS Management
+
+- ArcGIS Pro
 - Geodatabase Management
 - Coordinate Systems
-- Data Visualization
-- ArcGIS Pro
 - ModelBuilder
 
 ---
@@ -133,22 +192,24 @@ Canadian-Arctic-Sea-Ice-Shipping-Analysis/
 
 Potential future enhancements include:
 
-- Multi-year trend analysis
-- Seasonal sea ice comparisons
-- Arctic shipping accessibility modelling
-- Integration of vessel traffic data (AIS)
-- Climate change impact assessment
+- Multi-year sea ice trend analysis (2000–2025)
+- Seasonal comparison (March vs. September)
+- Integration of Automatic Identification System (AIS) vessel traffic
+- Shipping route accessibility modelling
+- Climate change impact visualization
+- Publication as an ArcGIS StoryMap
 
 ---
 
-## Author
+## License
+
+This project is available under the MIT License.
+
+---
+
+## Contact
 
 **S. M. Monzur Murshed**
 
-GIS Portfolio
-
-LinkedIn:
-https://www.linkedin.com/in/monzur-murshed-84576317/
-
-GitHub:
-https://github.com/MonzurMurshed
+- [LinkedIn](https://www.linkedin.com/in/monzur-murshed-84576317/)
+- [GitHub](https://github.com/MonzurMurshed)
