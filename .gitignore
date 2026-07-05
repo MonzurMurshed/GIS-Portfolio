@@ -1,9 +1,15 @@
-</> gitignore
-
 # Archives
 *.zip
 
-# ArcGIS Pro temporary files
+# ArcGIS Pro
+*.gdb/
+.backups/
+Index/
+ImportLog/
+GpMessages/
+info/
+
+# ArcGIS temporary files
 *.lock
 *.sr.lock
 *.tmp
@@ -12,17 +18,11 @@
 *.freelist
 *.gdb-lock
 
-# ArcGIS generated folders
-Index/
-ImportLog/
-GpMessages/
-info/
-
-#Python
+# Python
 __pycache__/
 *.pyc
 
-#Windows
+# Windows
 Thumbs.db
 Desktop.ini
 
