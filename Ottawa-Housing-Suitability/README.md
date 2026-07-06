@@ -27,7 +27,7 @@ The analysis was automated using ArcGIS Pro ModelBuilder. Separate buffer zones 
 ![ModelBuilder Workflow](screenshots/modelbuilder_workflow.png)
 
 ## Final Map
-![Ottawa Housing Suitability Map](maps/Layout.jpg)
+![Ottawa Housing Suitability Map](maps/Ottawa_Housing_Suitability_Map.jpg)
 
 ## Results
 Areas near schools, transit, and libraries were identified as the most suitalbe locations for housing development.
