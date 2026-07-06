@@ -1,10 +1,51 @@
 # Ottawa Tree Canopy Change Detection (2020–2025)
 
+![ArcGIS Pro](https://img.shields.io/badge/ArcGIS-Pro-blue)
+![Remote Sensing](https://img.shields.io/badge/Remote-Sensing-orange)
+![Sentinel-2](https://img.shields.io/badge/Sentinel-2-green)
+![NDVI](https://img.shields.io/badge/NDVI-Vegetation-success)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+![Tree Canopy Change](maps/Ottawa_Tree_Canopy_Change_2020_2025.png)
+_A remote sensing analysis of urban tree canopy change in Ottawa using Sentinel-2 imagery and NDVI between 2020 and 2025._
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Project Skills](#project-skills)
+- [Why This Project](#why-this-project)
+- [Project Highlights](#project-highlights)
+- [Objectives](#objectives)
+- [Methodology](#methodology)
+- [Results](#results)
+- [Future Improvements](#future-improvements)
+
 ## Project Overview
 
 This project analyzes changes in Ottawa's urban tree canopy between **2020 and 2025** using **Sentinel-2 Level-2A satellite imagery** and the **Normalized Difference Vegetation Index (NDVI)**. By comparing vegetation conditions across two time periods, the project identifies areas of vegetation gain, vegetation loss, and stable vegetation within Ottawa's urban boundary.
 
 The project demonstrates a complete remote sensing workflow using **ArcGIS Pro**, including raster preprocessing, NDVI calculation, change detection, ModelBuilder automation, and professional cartographic design.
+
+---
+
+## Project Skills
+
+| Category        | Skills                                           |
+| --------------- | ------------------------------------------------ |
+| GIS             | ArcGIS Pro, Spatial Analysis                     |
+| Remote Sensing  | Sentinel-2, NDVI, Change Detection               |
+| Raster Analysis | Raster Calculator, Clip Raster, Reclassification |
+| Automation      | ModelBuilder                                     |
+| Cartography     | Map Design, Layout, Symbology                    |
+| Version Control | Git, GitHub                                      |
+
+---
+
+## Why This Project?
+
+Urban tree canopy plays a vital role in improving environmental quality, reducing urban heat island effects, enhancing biodiversity, managing stormwater, and supporting sustainable urban planning. Monitoring changes in vegetation over time helps planners and decision-makers identify areas of canopy loss or gain and prioritize conservation and greening initiatives.
+
+This project demonstrates how remote sensing and GIS can be used to monitor vegetation change using freely available Sentinel-2 satellite imagery and NDVI analysis. It showcases a practical workflow for detecting and visualizing urban tree canopy changes between 2020 and 2025.
 
 ---
 
@@ -102,20 +143,33 @@ The following ModelBuilder workflow summarizes the complete remote sensing proce
 
 ## Project Structure
 
-```text
+```
 Ottawa-Tree-Canopy-Change-Detection/
 │
 ├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── README.md
 │
 ├── maps/
+│   ├── Ottawa_Tree_Canopy_NDVI_2020.png
+│   ├── Ottawa_Tree_Canopy_NDVI_2025.png
+│   ├── Ottawa_Tree_Canopy_Change_2020_2025.png
+│   └── README.md
+│
+├── modelbuilder/
+│   ├── TreeCanopyWorkflow.atbx
+│   └── README.md
+│
+├── report/
+│   ├── Ottawa_Tree_Canopy_Change_Report.pdf
+│   └── README.md
 │
 ├── screenshots/
-│   ├── treeCanopy2020.png
-│   ├── treeCanopy2025.png
-│   ├── treeCanopyChange.png
-│   └── ModelBuilder_Workflow.png
 │
-├── README.md
+├── scripts/
+│
+└── README.md
 ```
 
 ---
@@ -182,16 +236,11 @@ Potential enhancements include:
 
 ---
 
-## Author
+## Contact
 
 **S. M. Monzur Murshed**
 
-GIS | Remote Sensing | Spatial Analysis Portfolio
+GIS | Remote Sensing | Spatial Analysis
 
-June 2026
-
----
-
-## License
-
-This project is provided for **educational and portfolio purposes**.
+- LinkedIn: https://www.linkedin.com/in/monzur-murshed-84576317/
+- GitHub: https://github.com/MonzurMurshed

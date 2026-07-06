@@ -1,0 +1,29 @@
+# Data
+
+## Overview
+
+This project uses publicly available Sentinel-2 satellite imagery to analyze tree canopy changes in Ottawa between 2020 and 2025.
+
+## Data Sources
+
+### Sentinel-2 Multispectral Imagery
+
+- Source: Copernicus Open Access Hub / Microsoft Planetary Computer / Sentinel-2
+- Resolution: 10 m
+- Years:
+  - 2020
+  - 2025
+
+## Derived Data
+
+- NDVI (Normalized Difference Vegetation Index)
+- Tree canopy change raster
+
+## Folder Structure
+
+- **raw/** — Original satellite imagery (not included in this repository)
+- **processed/** — Intermediate raster products generated during analysis
+
+## Notes
+
+Raw imagery is excluded from this repository to reduce repository size and can be downloaded from the original data source.
